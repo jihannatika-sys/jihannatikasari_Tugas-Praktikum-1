@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCanvas-jihan natikasari</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="https://kit.fontawesome.com/1c8912b91c.js" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0">
+   <!--offcanvas-->
+    <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarlabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLebar">Mari Travel</h5>
+            <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas" aria-label="close" ></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                           <a class="nav-link active" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Sklis</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Contact</a>
+                        </li>
+                    </ul>
+        </div>
+    </div>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3" id="main-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Mari Travel</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                           <a class="nav-link active" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Sklis</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">Contact</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- CONTENT -->
+<section class="header bg-light text-center text-sm-start pt-5 pb-5 pb-lg-0 mt-5">
+  <div class="container" style="margin-top:100px;">
+    <div class="d-flex align-items-center">
+     <div>
+       <h1><samp class="text-primary">Mari </samp> Jalan-jalan,Mari Travel</h1>
+       <p class="lead">
+        Yuk Kita jalan,melepas penat,mengisi hari bersama teman-teman.Jadi,Mari Travel </p>
+
+       <button class="btn btn-primary btn-ig">
+        Yuk Berangkat 
+       </button>
+     </div>
+
+     <img 
+     class="img-fluid w-50 d-none d-sm-block"
+     src="imags/liburan.svg" 
+     alt="header">
+  </div>
+    </div>
+</section>
+
+<!--SERVICES-->
+<section class=" services p-5" id="services">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-md">
+        <div class="card bg-light text-dark   border-5 " style="width: 18rem;   height: 100%;" >
+        <img src="imags/pesawat.svg" p-5 card-img-top" alt="...">
+        <div class="card-body">
+        <h3>Ticket</h3>
+        <p class="card-text">Fitur CRUD lengkap, label, dan tag untuk setiap tugas.</p>
+  </div>
+</div></div>
+      <div class="col-md">
+      <div class="card bg-light text-dark border-5 height: 100px;" style="width: 18rem; height: 100%;">
+      <img src="imags/kota.svg" class=" p-5 card-img-top" alt="...">
+      <div class="card-body">
+      <h3>Penginapan</h3>
+      <p class="card-text">Sistem warna untuk menandai tugas yang paling mendesak.</p>
+  </div>
+</div></div>
+      <div class="col-md">
+      <div class="card bg-light text-dark border-5 height: 100px;" style="width: 18rem; height: 100%;">
+      <img src="imags/taman.svg" class="p-5 card-img-top" alt="...">
+      <div class="card-body">
+      <h3>Wisata</h3>
+      <p class="card-text">Pengingat otomatis untuk deadline tugas Anda.</p>
+  </div>
+</div></div>
+    </div>
+  </div>
+</section>
+
+<!--Testimoni-->
+<section class="bg-primary text-light p-5" id="promo">
+  <div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+      <h3>Dapatkan peromo menarik</h3>
+    </div>
+
+    <div class="input-group">
+      <input type="text" class="form-control"
+      placeholder="Masukan email anda">
+      <button class="btn btn-dark btn-lg" type="button">Submit</button>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!--contak-->
+<section class="p-5" id="contact">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <lu class="list-group list-group-flush"
+        lead>
+        <li class="list-group-item">
+          <i class="bi bi-geo-alt-fill"></i>
+          <samp class="fw-bold">Location</samp>
+          <br>Jalan keselamatan,11</br>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-telephone-fill"></i>
+          <samp class="fw-bold">mobil phone</samp>
+          <br>(+62) 821-1234-1234</br>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-instagram"></i>
+          <samp class="fw-bold">instagram</samp>
+          <br>@jihancantek</br>
+        </li>
+        </lu>
+      </div>
+      <div class="col-md">
+         <img 
+         class="img-fluid  d-none d-lg-block"
+         src="imags/contak.svg" 
+         alt="contact">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+<footer class="p-5 bg-dark text-white text-center">
+  <div class="container">
+    <p class="lead">copyright  &copy: 2021 mariTrevel.com</p>
+
+    <a href="#" class="position-absolute botoom-0 end-0 p-5">
+      <i class="bi bi-arrow-up-circle h1"></i>
+    </a>
+  </div>
+</footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+   <script src="js/script.js"></script>
+</body>
+</html>
